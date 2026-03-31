@@ -152,7 +152,7 @@ export function Welcome() {
                   style={{ background: "linear-gradient(135deg, #DBEAFE, #EDE9FE)", border: "3px solid #7C3AED" }}
                 >
                   <p style={{ fontSize: "1.5rem", fontWeight: 900, color: "#1E40AF", letterSpacing: "0.1em" }}>
-                    OLÁ AMIGO
+                    BEM VINDO
                   </p>
                 </div>
                 <span
@@ -186,7 +186,7 @@ export function Welcome() {
                   style={{ background: "linear-gradient(135deg, #FEF3C7, #FCE7F3)", border: "3px solid #EC4899" }}
                 >
                   <p style={{ fontSize: "1.5rem", fontWeight: 900, color: "#BE185D", letterSpacing: "0.1em" }}>
-                    ROÓ DPLÉR
+                   EHP YLQGR
                   </p>
                 </div>
                 <span
