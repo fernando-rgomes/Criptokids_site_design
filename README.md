@@ -73,9 +73,9 @@ http://localhost:5173
 Contribuições são bem-vindas! Para contribuir:
 
 1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some NovaFeature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
 5. Abra um Pull Request
 
 ## 📋 Estrutura do Projeto
@@ -92,15 +92,12 @@ Criptokids_site_design/
 └── README.md           # Este arquivo
 ```
 
-## 📄 Licença
+## 👨‍💻 Autoria
 
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
-
-## 👨‍💻 Autor
-
-**Fernando Gomes** - [GitHub](https://github.com/fernando-rgomes)
-
-Projeto original disponível em: https://www.figma.com/design/kWSB28gCqiRzAqMTuuL0wD/CriptoKids-site-design
+**Fernando Ribeiro Gomes Júnior** - [GitHub](https://github.com/fernando-rgomes);
+**João Miguel Santos do Nascimento** -  [GitHub](https://github.com/ricoRecruta);
+**Laísa Maria dos Santos** -  [GitHub](https://github.com/laisamarias);
+**Alexander Brasil** -  [GitHub](https://github.com/alexbrasil12);
 
 ## 📞 Suporte
 
