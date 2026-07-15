@@ -553,7 +553,7 @@ export function Challenges() {
             border: "none",
           }}
         >
-          🔓 Aprender a Quebrar Cifras
+          🔓 Quebrando Cifras
           <ArrowRight size={22} />
         </motion.button>
       </motion.div>

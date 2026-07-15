@@ -37,7 +37,7 @@ const cryptoHistory = [
   { year: "~50 a.C.", event: "Júlio César usa a Cifra de César para mensagens militares", icon: "⚔️" },
   { year: "1940s", event: "A máquina Enigma usa criptografia na Segunda Guerra Mundial", icon: "⚙️" },
   { year: "1970s", event: "Nasce a criptografia moderna com chaves digitais", icon: "💻" },
-  { year: "Hoje", event: "Toda a internet usa criptografia para nos proteger", icon: "🌐" },
+  { year: "Hoje", event: "A maior parte da internet usa criptografia (HTTPS) para nos proteger", icon: "🌐" },
 ];
 
 export function WhatIsCrypto() {
@@ -264,8 +264,7 @@ export function WhatIsCrypto() {
           Você sabia?
         </h3>
         <p style={{ color: "#78350F", fontSize: "0.95rem", lineHeight: 1.7 }}>
-          Toda vez que você acessa um site com <strong>"https://"</strong>, sua conexão está sendo 
-          protegida por criptografia! O cadeado 🔒 na barra do navegador significa que seus dados estão seguros.
+          Toda vez que você acessa um site com <strong>"https://"</strong> (que vem do inglês <em>HyperText Transfer Protocol Secure</em>, ou Protocolo de Transferência Seguro), sua conexão está sendo protegida por criptografia! O cadeado 🔒 na barra do navegador significa que seus dados estão seguros.
         </p>
       </motion.div>
 

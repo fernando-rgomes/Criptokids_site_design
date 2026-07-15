@@ -749,7 +749,7 @@ export function BruteForce() {
             boxShadow: "0 8px 30px rgba(124,58,237,0.5)",
           }}
         >
-          ⚙️ Voltar ao Simulador
+          🔓 Voltar ao Simulador
         </motion.button>
       </motion.div>
     </div>

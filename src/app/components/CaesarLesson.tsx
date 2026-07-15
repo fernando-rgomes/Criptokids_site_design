@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import julioCesarImg from "../../assets/Julius-Caesar.jpg"
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -49,7 +50,25 @@ export function CaesarLesson() {
         style={{ background: "rgba(255,255,255,0.97)", boxShadow: "0 20px 60px rgba(0,0,0,0.2)" }}
       >
         <div className="flex flex-col md:flex-row gap-6 items-center">
-          <div className="text-7xl shrink-0">⚔️</div>
+          {/* IMAGEM DINÂMICA DE JÚLIO CÉSAR */}
+          <motion.div 
+            className="shrink-0 relative w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border-4"
+            style={{ borderColor: "#7C3AED" }}
+            // A mágica acontece aqui: quando `animating` for true, a imagem dá um "pulo" e vibra
+            animate={animating ? { 
+              scale: [1, 1.1, 1], 
+              rotate: [0, -5, 5, -5, 0] 
+            } : {}}
+            transition={{ duration: 0.4 }}
+          >
+            <img 
+              src={julioCesarImg} 
+              alt="Busto de Júlio César"
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
+
+
           <div>
             <h2 style={{ color: "#7C3AED", fontWeight: 800, fontSize: "1.3rem", marginBottom: "0.75rem" }}>
               A história da Cifra de César
